@@ -1,12 +1,11 @@
 *{
 
-    background-color:#FAEFED;
-
+    
 }
 body{
     display: flex;
     flex-direction: column;
-    border: 5px solid #0A162C;
+    border: 10px solid #0A162C;
     margin-top: 70px;
     margin-left: 150px;
     padding-left: 40px;;
@@ -14,12 +13,12 @@ body{
     margin-bottom: 50px;
     padding: 20px;
     box-sizing: border-box;
-    background-color:#282D40;
-
+    
 }
 #head{
     text-align: center;
     color:#4A495A;
+    background-color: #FAEFED;;
     
 }
 #head h1{
@@ -27,8 +26,9 @@ body{
     font-weight: bolder;
     font-size: 55px;
     color: #0A162C;
+    background-color:#FAEFED;;
 }
-.hero{background-color: #4A495A;
+.hero{
     text-align: center;
     border-radius:5px;
     border:1px solid none;
@@ -38,6 +38,7 @@ body{
     font-size: 30px;
     font-style: oblique;
     color: #282D40;
+    background-color: #FAEFED;
     
 }
 
@@ -52,14 +53,18 @@ article{margin:20px;
     border: 2px solid yellowgreen;
     font-style: italic;
     color: #282D40;
-    font-size: 20px;
+    font-size: 20px; 
+    background-color: #FAEFED;
+
+    
+
 
 }
 .motive{
     border: 20px solid pink;
     margin-left: 20px;
     padding-left: 20px;
-    
+     background-color: #FAEFED;
 }
 .motive h2{
         font-weight: 700;
@@ -89,6 +94,7 @@ footer{
     font-size: 20px;
     font-style: italic;
     color: #282D40;
+     background-color: #FAEFED;
 }
 footer li{
     list-style: none;
